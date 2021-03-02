@@ -1,0 +1,34 @@
+{
+    "workbench.colorTheme": "Earthbound - Dusty Dunes",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "python.languageServer": "Microsoft",
+    "editor.renderIndentGuides": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "jupyter.alwaysTrustNotebooks": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 12,
+    "code-runner.runInTerminal": true,
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "todo-tree.tree.showScanModeButton": false,
+    "workbench.sideBar.location": "left",
+    "editor.fontSize": 12,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "terminal.integrated.shell.linux": "/bin/sh",
+    "terminal.external.linuxExec": "bash",
+    "terminal.integrated.automationShell.linux": "bash",
+    "terminal.integrated.env.linux": {  "bash"
+    
+    }
+}
