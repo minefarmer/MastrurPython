@@ -1,6 +1,5 @@
 ## Functions
 
-
 # print("Welcome to the program, what is your name?")
 # name_result = input("Enter your response here -> ")
 # print(f"Your response was {name_result}")  # Your response was Enter your response here -> rich
@@ -16,16 +15,15 @@
 
 
 def get_input_from_user():
-    result = input("Enter your response here -> ")
-    print(f"Your response was {result}")
+    return input("Enter your response here ->")
 
-print("Welcome to the program, what is your name?")  # Enter your response here -> rich
-get_input_from_user()
+print("Welcome to the program, what is your name?")
+name_result = get_input_from_user()  # Enter your response here -> carl
 
 print("What did you think of the food you ate today?")
-food_result = input("Enter your response here -> ")
-get_input_from_user  # Enter your response here -> great
+food_result = get_input_from_user()  # Enter your response here -> great
 
 print("What tv show ending did you dislike the most ever?")
-show_result = input("Enter your response here -> ")
-get_input_from_user # Your response was Got
+show_result = get_input_from_user()  # Enter your response here -> got
+
+print(f"To summarize: Your name is {name_result.capitalize()}. you ate {food_result} food today and hated the ending of {show_result.upper()}")  # To summarize: Your name is Carl. you ate great food today and hated the ending of GOT
