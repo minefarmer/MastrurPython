@@ -73,44 +73,94 @@ start_num -> 1   # from line 47
 '''
 
 
-# Example 3  ** Program  converted to a list
-def func_0(start_num):
-    start_num += 1
-return func_1(start_num)
-    start_num += 1
-    return start_num
+# # Example 3a  ** Program  converted to a list
+# def func_0(other_num):
+#     other_num[0] += 1
+#     return func_1(other_num)
+
+# def func_1(another_num):
+#     another_num[0] += 1
+#     return another_num
+
+# start_num = [1]
+# print(f"start_num\t-> {start_num}")  # start_num       -> [1]
+# finish_num = func_0(start_num)
+# print(f"calc'd_num\t-> {finish_num}")  # calc'd_num      -> [3]
+# print(f"start_num\t-> {start_num}")  # start_num       -> [3]
+# print(finish_num == start_num)  # True
+
+
+# # Example 3b  ** Program  converted to a list
+# def func_0(other_num):
+#     other_num[0] += 1
+#     return func_1(other_num)
+
+# def func_1(another_num):
+#     another_num[0] += 1
+#     return another_num
+
+# start_num = [1]
+# print(f"start_num\t-> {start_num}")  # start_num       -> [1]
+# finish_num = func_0(start_num.copy())
+# print(f"calc'd_num\t-> {finish_num}")  # calc'd_num      -> [3]
+# print(f"start_num\t-> {start_num}")  # start_num       -> [1]
+# print(finish_num == start_num)  # False
+
+
+# Example 3c  ** Program  converted to a list
+def func_0(other_num):
+    other_num[0] += 1
+    return func_1(other_num)
+
+def func_1(another_num):
+    another_num[0] += 1
+    return another_num
 
 start_num = [1]
-print(f"start_num\t-> {start_num}")  # start_num       -> 1
-finish_num = func_0(start_num)
-print(f"calc'd_num\t-> {finish_num}")  # calc'd_num      -> 3
-print(f"start_num\t-> {start_num}")  # start_num       -> 1
+print(f"start_num\t-> {start_num}")  # start_num       -> [1]
+finish_num = func_0(start_num[:])
+print(f"calc'd_num\t-> {finish_num}")  # calc'd_num      -> [3]
+print(f"start_num\t-> {start_num}")  # start_num       -> [1]
+print(finish_num == start_num)  # False
 
 
 # Example 3 Global frame
-function objects:
-func_0
-func_1
+# function objects:
+# func_0
+# func_1
 
-int objects
-start_num -> 1
+# int objects
+# start_num ->
 
-finish_num -> 3
+# finish_num ->
 
 
-def func_0(start_num):
-    start_num[0] += 1
-    return func_1(start_num)
 
-def func_1(start_num):
-    start_num[0] += 1
-    return start_num
 
-start_num = [1]
-print(f"start_num\t-> {start_num}")  # start_num       -> 1
-finish_num = func_0(start_num)
-print(f"calc'd_num\t-> {finish_num}")  # calc'd_num      -> 3
-print(f"start_num\t-> {start_num}")  # start_num       -> 1
+# func_0 frame
+# other_num
+
+
+
+
+
+
+
+
+
+# def func_0(start_num):
+#     start_num[0] += 1
+#     return func_1(start_num)
+
+# def func_1(start_num):
+#     start_num[0] += 1
+#     return start_num
+
+# start_num = [1]
+# print(f"start_num\t-> {start_num}")  # start_num       -> 1
+# finish_num = func_0(start_num)
+# print(f"calc'd_num\t-> {finish_num}")  # calc'd_num      -> 3
+# print(f"start_num\t-> {start_num}")  # start_num       -> 1
 
 
 # # Example 2 Global frame
