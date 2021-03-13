@@ -53,9 +53,6 @@ class Student:
 courses_1 = ['python', 'rails', 'javascript']
 courses_2 = ['java','rails','c']
 rich = Student("rich","matson",courses_1)
-carl = Student("carl","matson",courses_2)
-# carl = Student("carl","matson")
 
-
-print(rich.first_name, rich.last_name, rich.courses)  # rich matson
-print(carl.first_name, carl.last_name, carl.courses)  # carl matson
+# print(rich.first_name, rich.last_name, rich.courses)  # rich matson
+# print(carl.first_name, carl.last_name, carl.courses)  # carl matson
