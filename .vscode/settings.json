@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "workbench.colorTheme": "Earthbound - Fire Spring {Darker)",
-=======
     "workbench.colorTheme": "Earthbound Main (Darker)",
->>>>>>> 8173740fbae63a02b204e9d3ce15545aa188e65e
     "workbench.startupEditor": "newUntitledFile",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
