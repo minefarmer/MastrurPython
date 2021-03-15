@@ -27,15 +27,15 @@ Dunder methods  # 30
 
 
 #  Dunder methods
-# class Student:
+class Student:
     
-#     def __init__(self, first, last):  # methods with two underscores on each side are (special methods) or (dunder methods)
-#         self.first_name = first
-#         self.last_name = last
+    def __init__(self, first, last):  # methods with two underscores on each side are (special methods) or (dunder methods)
+        self.first_name = first
+        self.last_name = last
 
-# rich = Student("rich","matson")
-# carl = Student("carl","matson")
+rich = Student("rich","matson")
+carl = Student("carl","matson")
 
-# print(rich.first_name, rich.last_name)  # rich matson
-# print(carl.first_name, carl.last_name)  # carl matson
+print(rich.first_name, rich.last_name)  # rich matson
+print(carl.first_name, carl.last_name)  # carl matson
 

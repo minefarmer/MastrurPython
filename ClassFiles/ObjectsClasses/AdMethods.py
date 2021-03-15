@@ -172,15 +172,15 @@ carl = Student("carl","matson",courses_2)
 
 
 
-# print(rich)  # <__main__.Student object at 0x7f508b348370>
-# print(carl)  # <__main__.Student object at 0x7f508b348310>
+print(rich)  # <__main__.Student object at 0x7f508b348370>
+print(carl)  # <__main__.Student object at 0x7f508b348310>
 
-# print(rich.first_name, rich.last_name, rich.courses)  # rich matson ['python', 'rails', 'javascript']
-# print(carl.first_name, carl.last_name, carl.courses)  # carl matson ['java', 'rails', 'c']
-# # .add_course("java")
-# rich.add_course("rails")  # rich is already enrolled in the rails course  #! This is printed after line 97 is run.
-# print(rich.first_name, rich.last_name, rich.courses)  # rich matson ['python', 'rails', 'javascript', 'rails']
-# carl.remove_course("c")
-# carl.remove_course("c")  # c not found
-# carl.remove_course("python")  # python
-# print(carl.first_name, carl.last_name, carl.courses)  # carl matson ['java', 'rails']
+print(rich.first_name, rich.last_name, rich.courses)  # rich matson ['python', 'rails', 'javascript']
+print(carl.first_name, carl.last_name, carl.courses)  # carl matson ['java', 'rails', 'c']
+# .add_course("java")
+rich.add_course("rails")  # rich is already enrolled in the rails course  #! This is printed after line 97 is run.
+print(rich.first_name, rich.last_name, rich.courses)  # rich matson ['python', 'rails', 'javascript', 'rails']
+carl.remove_course("c")
+carl.remove_course("c")  # c not found
+carl.remove_course("python")  # python
+print(carl.first_name, carl.last_name, carl.courses)  # carl matson ['java', 'rails']
