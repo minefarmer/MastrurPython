@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Earthbound Main (Darker)",
+    "workbench.colorTheme": "Earth-Human",
     "workbench.startupEditor": "newUntitledFile",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -12,13 +12,13 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 3000,
     "editor.wordWrap": "on",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
     "code-runner.runInTerminal": true,
     "window.zoomLevel": 1,
     "workbench.iconTheme": "material-icon-theme",
     "todo-tree.tree.showScanModeButton": false,
     "workbench.sideBar.location": "left",
-    "editor.fontSize": 14,
+    "editor.fontSize": 12,
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter-notebook",
@@ -29,6 +29,5 @@
     "terminal.external.linuxExec": "bash",
     "terminal.integrated.automationShell.linux": "bash",
     "terminal.integrated.env.linux": {  "bash"
-    
     }
 }
