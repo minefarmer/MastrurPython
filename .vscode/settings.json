@@ -12,13 +12,13 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 3000,
     "editor.wordWrap": "on",
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 14,
     "code-runner.runInTerminal": true,
     "window.zoomLevel": 1,
     "workbench.iconTheme": "material-icon-theme",
     "todo-tree.tree.showScanModeButton": false,
     "workbench.sideBar.location": "left",
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter-notebook",

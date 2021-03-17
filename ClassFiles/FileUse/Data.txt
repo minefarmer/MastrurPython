@@ -1,0 +1,2 @@
+rich = ['python', 'rails', 'javascript']
+carl = ['java', 'rails', 'c']
