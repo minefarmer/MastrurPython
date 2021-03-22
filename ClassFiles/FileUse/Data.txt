@@ -1,2 +1,3 @@
-rich = ['python', 'rails', 'javascript']
-carl = ['java', 'rails', 'c']
+carl,matson:python,ruby,javascript
+rich,matson:java,c++,c
+jess,biskup:ruby,rails,javascript
